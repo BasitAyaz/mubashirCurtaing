@@ -1,0 +1,102 @@
+* {
+    font-family: 'Advent Pro';
+}
+
+body {
+    background-color: #f0f0f0;
+}
+
+.headr {
+    background-color: #424647;
+}
+
+.ico {
+    color: white;
+}
+
+.ico i {
+    font-size: 3em;
+}
+
+.ico div {
+    display: inline-block;
+}
+
+.nav-item {
+    transition: .5s;
+}
+
+.nav-item a {
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    background-color: #424647;
+    border-radius: 5px;
+    color: white!important;
+}
+
+.nav-item:hover a {
+    color: white !important;
+}
+
+.text {
+    background-color: #424647;
+    color: white;
+    padding: 10px;
+    font-size: 3em;
+}
+
+.custom {
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    font-size: 1em;
+    background-color: #424647;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 black;
+    transition: .5s;
+}
+
+.custom:hover {
+    box-shadow: 0 0 0 black;
+}
+
+.background {
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.backBlack {
+    background-color: rgba(0, 0, 0, .5);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    transition: .5s;
+}
+
+.center {
+    text-align: center;
+    padding: 20px;
+}
+
+.cardImg {
+    box-shadow: 0 0 15px#B0B0B0 !important;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cardImg:hover {
+    background-color: white;
+}
+
+.ico {
+    padding: 60px;
+    background-color: black;
+    width: 100%;
+    border-radius: 90px;
+}
