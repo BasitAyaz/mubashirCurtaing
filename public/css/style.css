@@ -97,7 +97,7 @@ body {
 .roundIco {
     padding: 12px;
     font-size: 2.5em;
-    background-color: darkcyan;
+    background-color: black;
     border-radius: 57px;
 }
 
@@ -114,6 +114,7 @@ body {
     font-size: 3em;
     font-weight: bold;
     text-decoration: underline;
+    text-align: center;
 }
 
 .imgGallery {
@@ -155,4 +156,44 @@ body {
 .bold {
     font-weight: bold;
     font-size: 1.5em;
+}
+
+.heading {
+    text-align: center;
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+    font-weight: bold;
+}
+
+.content {
+    text-align: center;
+    padding: 30px;
+}
+
+.content i {
+    font-size: 3em;
+    padding: 33px;
+    margin: 30px;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 75px;
+    width: 2.3em;
+    height: 2.3em;
+}
+
+.teamContent {
+    text-align: center;
+    padding: 20px;
+}
+
+p.color {
+    color: darkcyan;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+p.desig {
+    font-size: 1.5em;
+    font-weight: bold;
 }
